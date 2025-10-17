@@ -49,3 +49,11 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Sales Trends**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+
+
+## 📧 Contact
+
+For more information, feel free to reach out:
+
+- 📩 **Email**: [mahmoud.hamdy2017@feps.edu.eg](mailto:mahmoud.hamdy2017@feps.edu.eg)  
+- 🔗 **LinkedIn**: [https://www.linkedin.com/in/mahmoud-hamdy-123b4b193/](https://www.linkedin.com/in/mahmoud-hamdy-123b4b193/)
