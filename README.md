@@ -1,44 +1,119 @@
-# Data Warehouse and Analytics Project
+🚀 Data Warehouse & Analytics Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+Welcome to the Data Warehouse and Analytics Project repository!
+This project demonstrates an end-to-end data warehousing and analytics solution — from building a scalable data warehouse to delivering actionable business insights.
+
+Designed as a portfolio project, it highlights industry best practices in data engineering, data modeling, and analytics reporting.
 
 ---
 ## 🏗️ Data Architecture
 
-The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
-![Data Architecture](docs/data_architecture.png)
+The project follows the Medallion Architecture (Bronze → Silver → Gold):
 
-1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
-2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
-3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
+🔸 Bronze Layer
+Stores raw data from source systems as-is.
+Data is ingested from CSV files into a SQL Server database.
+
+🔸 Silver Layer
+Applies data cleansing, standardization, and normalization to prepare data for analytics.
+
+🔸 Gold Layer
+Contains business-ready data modeled in a Star Schema (Fact and Dimension tables) to support efficient reporting and insights.
+
+
 
 ---
 ## 📖 Project Overview
 
-This project involves:
+This project includes the following components:
 
-1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
-2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
-3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+Data Architecture – Designing a modern data warehouse using the Medallion framework.
+
+ETL Pipelines – Extracting, transforming, and loading data from multiple source systems into the warehouse.
+
+Data Modeling – Building optimized Fact and Dimension tables for analytical queries.
+
+Analytics & Reporting – Creating SQL-based reports and dashboards for business insights.
 
 ---
 ## 🚀 Project Requirements
+🎯 Objective
 
-### Building the Data Warehouse (Data Engineering)
+Build a modern Data Warehouse using SQL Server to consolidate sales and customer data, enabling analytical reporting and data-driven decision-making.
 
-#### Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+📋 Specifications
 
-#### Specifications
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope**: Focus on the latest dataset only; historization of data is not required.
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+Data Sources: Import data from two systems — ERP and CRM — provided as CSV files.
+
+Data Quality: Clean and fix inconsistencies before loading data into the warehouse.
+
+Integration: Merge both sources into a single, unified analytical model.
+
+Scope: Focus on the latest dataset only (no historization).
+
+Documentation: Provide clear data model documentation for both technical and business users.
 
 ---
+
+🧩 Entity Relationship Diagram (ERD)
+
+The Gold Layer of the Data Warehouse is modeled using a Star Schema structure, centered around the FactSales table and connected to its related Dimension tables.
+
+
+
+
+----
+
+⚙️ Tech Stack
+Category	Tools / Technologies
+Database	Microsoft SQL Server
+Data Source	CSV Files (ERP & CRM)
+Data Modeling	Star Schema (Fact + Dimension Tables)
+Language	T-SQL
+
+---
+SQL
+📊 Deliverables
+
+Cleaned and validated tables ready for analysis
+
+Star Schema with:
+
+FactSales
+
+DimCustomer
+
+DimProduct
+
+DimDate
+
+SQL scripts for:
+
+Data loading (INSERT, BULK INSERT)
+
+Data cleaning (TRIM, SUBSTRING, REPLACE, UPPER, LOWER, NULLIF, CASE)
+
+Data transformation (joins, conditional logic, data validation)
+
+Stored procedures (ETL automation and refresh processes)
+
+Views (reporting and simplified data access)
+
+Analytical queries (KPIs, aggregations, trend analysis)
+
+----
+
+🧠 Key Learnings
+Building a Data Warehouse entirely in SQL Server
+
+Implementing ETL logic with stored procedures and views
+
+Handling data quality and transformation using T-SQL
+
+Designing Fact and Dimension models for performance and analytics
+
+---
+
 
 ### BI: Analytics & Reporting (Data Analysis)
 
