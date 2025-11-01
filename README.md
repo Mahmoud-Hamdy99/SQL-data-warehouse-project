@@ -64,53 +64,42 @@ The Gold Layer of the Data Warehouse is modeled using a Star Schema structure, c
 
 ----
 
-⚙️ Tech Stack
-Category	Tools / Technologies
-Database	Microsoft SQL Server
-Data Source	CSV Files (ERP & CRM)
-Data Modeling	Star Schema (Fact + Dimension Tables)
-Language	T-SQL
+| Category          | Tools / Technologies                  |
+| ----------------- | ------------------------------------- |
+| **Database**      | Microsoft SQL Server                  |
+| **Data Source**   | CSV Files (ERP & CRM)                 |
+| **Data Modeling** | Star Schema (Fact & Dimension Tables) |
+| **Language**      | T-SQL                                 |
+
 
 ---
-SQL
-📊 Deliverables
+## 📊 Deliverables  
 
-Cleaned and validated tables ready for analysis
+- **Cleaned and validated tables** ready for analysis  
+- **Star Schema** including:  
+  - `FactSales`  
+  - `DimCustomer`  
+  - `DimProduct`  
+  - `DimDate`  
 
-Star Schema with:
+### 💾 SQL Scripts for:  
 
-FactSales
+- **Data Loading:** `INSERT`, `BULK INSERT`  
+- **Data Cleaning:** `TRIM`, `SUBSTRING`, `REPLACE`, `UPPER`, `LOWER`, `NULLIF`, `CASE`  
+- **Data Transformation:** joins, conditional logic, data validation  
+- **Stored Procedures:** ETL automation and data refresh processes  
+- **Views:** reporting and simplified data access  
+- **Analytical Queries:** KPIs, aggregations, trend analysis  
 
-DimCustomer
-
-DimProduct
-
-DimDate
-
-SQL scripts for:
-
-Data loading (INSERT, BULK INSERT)
-
-Data cleaning (TRIM, SUBSTRING, REPLACE, UPPER, LOWER, NULLIF, CASE)
-
-Data transformation (joins, conditional logic, data validation)
-
-Stored procedures (ETL automation and refresh processes)
-
-Views (reporting and simplified data access)
-
-Analytical queries (KPIs, aggregations, trend analysis)
 
 ----
 
-🧠 Key Learnings
-Building a Data Warehouse entirely in SQL Server
+## 🧠 Key Learnings  
 
-Implementing ETL logic with stored procedures and views
-
-Handling data quality and transformation using T-SQL
-
-Designing Fact and Dimension models for performance and analytics
+- Building a Data Warehouse entirely in **SQL Server**  
+- Implementing **ETL logic** using stored procedures and views  
+- Handling **data quality and transformation** with T-SQL functions  
+- Designing **Fact and Dimension models** optimized for performance and analytics  
 
 ---
 
