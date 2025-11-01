@@ -8,10 +8,10 @@ Script Purpose:
 	Actions Performed:
 		- Truncates Silver tables.
 		- Inserts transformed and cleansed data from Bronze into Silver tables.
+
+to execute the stored procedure : EXEC silver.load_silver
 */
 ----------------------------------------------------------------------------------
-
-EXEC silver.load_silver
 
 CREATE OR ALTER procedure silver.load_silver As 
  BEGIN
