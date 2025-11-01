@@ -81,7 +81,7 @@ The Gold Layer of the Data Warehouse is modeled using a Star Schema structure, c
   - `FactSales`  
   - `DimCustomer`  
   - `DimProduct`  
-  - `DimDate`  
+---
 
 ### 💾 SQL Scripts for:  
 
