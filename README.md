@@ -63,6 +63,7 @@ The Gold Layer of the Data Warehouse is modeled using a Star Schema structure, c
 
 
 ----
+⚙️ Tech Stack
 
 | Category          | Tools / Technologies                  |
 | ----------------- | ------------------------------------- |
