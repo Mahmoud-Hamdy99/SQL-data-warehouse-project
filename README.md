@@ -7,7 +7,7 @@ Designed as a **portfolio project**, it highlights industry best practices in **
 
 ---
 
-## 🏗️ Data Architecture  
+## Data Architecture  
 
 The project follows the **Medallion Architecture (Bronze → Silver → Gold):**  
 
@@ -23,7 +23,7 @@ Contains business-ready data modeled in a **Star Schema (Fact and Dimension tabl
 
 ---
 
-## 📖 Project Overview  
+## Project Overview  
 
 This project includes the following components:  
 
@@ -34,9 +34,9 @@ This project includes the following components:
 
 ---
 
-## 🚀 Project Requirements  
+## Project Requirements  
 
-🎯 **Objective**  
+**Objective**  
 Build a modern Data Warehouse using SQL Server to consolidate sales and customer data, enabling analytical reporting and data-driven decision-making.  
 
 📋 **Specifications**  
@@ -48,7 +48,7 @@ Build a modern Data Warehouse using SQL Server to consolidate sales and customer
 
 ---
 
-## 🧩 Entity Relationship Diagram (ERD)  
+## Entity Relationship Diagram (ERD)  
 
 The Gold Layer of the Data Warehouse is modeled using a **Star Schema** structure, centered around the `FactSales` table and connected to its related Dimension tables.  
 
@@ -56,7 +56,7 @@ The Gold Layer of the Data Warehouse is modeled using a **Star Schema** structur
 
 ---
 
-## ⚙️ Tech Stack  
+## Tech Stack  
 
 | Category | Tools / Technologies |
 |-----------|----------------------|
@@ -74,9 +74,9 @@ The Gold Layer of the Data Warehouse is modeled using a **Star Schema** structur
   - `FactSales`  
   - `DimCustomer`  
   - `DimProduct`  
-  - `DimDate`  
+    
 
-### 💾 SQL Scripts for:  
+### SQL Scripts for:  
 
 - **Data Loading:** `INSERT`, `BULK INSERT`  
 - **Data Cleaning:** `TRIM`, `SUBSTRING`, `REPLACE`, `UPPER`, `LOWER`, `NULLIF`, `CASE`  
@@ -96,9 +96,9 @@ The Gold Layer of the Data Warehouse is modeled using a **Star Schema** structur
 
 ---
 
-## 📈 BI: Analytics & Reporting (Data Analysis)  
+## 📈 BI: Analytics & Reporting (Data Analysis)  --->>> ## Coming Soon
 
-### 🎯 Objective  
+### Objective  
 Develop SQL-based analytics to deliver detailed insights into:  
 - **Customer Behavior**  
 - **Product Performance**  
@@ -108,9 +108,9 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ---
 
-## 📧 Contact  
+## Contact  
 
 For more information, feel free to reach out:  
 
-- 📩 **Email:** [mahmoud.hamdy2017@feps.edu.eg](mailto:mahmoud.hamdy2017@feps.edu.eg)  
-- 🔗 **LinkedIn:** [https://www.linkedin.com/in/mahmoud-hamdy-123b4b193/](https://www.linkedin.com/in/mahmoud-hamdy-123b4b193/)
+- **Email:** [mahmoud.hamdy2017@feps.edu.eg](mailto:mahmoud.hamdy2017@feps.edu.eg)  
+- **LinkedIn:** [https://www.linkedin.com/in/mahmoud-hamdy-123b4b193/](https://www.linkedin.com/in/mahmoud-hamdy-123b4b193/)
