@@ -25,6 +25,16 @@ Contains business-ready data modeled in a **Star Schema (Fact and Dimension tabl
 
 ---
 
+## 🔄 Data Lineage  
+
+The **Data Lineage** illustrates how data flows through each stage of the warehouse — from raw ingestion to analytics-ready tables.  
+It ensures **traceability**, **transparency**, and **data quality** across all layers of the architecture.  
+
+**Data Lineage Diagram:**  
+
+![Data Lineage](https://raw.githubusercontent.com/Mahmoud-Hamdy99/SQL-data-warehouse-project/refs/heads/main/docs/Data%20lineage%20(Data%20flow).drawio.png)
+
+---
 ## Project Overview  
 
 This project includes the following components:  
