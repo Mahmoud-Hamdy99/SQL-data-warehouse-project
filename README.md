@@ -11,7 +11,7 @@ Designed as a **portfolio project**, it highlights industry best practices in **
 
 The project follows the **Medallion Architecture (Bronze → Silver → Gold):**  
 
-![DW Architecture]([images/dw_architecture.png](https://raw.githubusercontent.com/Mahmoud-Hamdy99/SQL-data-warehouse-project/refs/heads/main/docs/Data%20warehouse%20archeticture.drawio.png))
+![DW Architecture]([images/dw_architecture.png](https://raw.githubusercontent.com/Mahmoud-Hamdy99/SQL-data-warehouse-project/refs/heads/main/docs/Data%20warehouse%20archeticture.drawio.png)](https://raw.githubusercontent.com/Mahmoud-Hamdy99/SQL-data-warehouse-project/refs/heads/main/docs/Data%20warehouse%20archeticture.drawio.png))
 
 🔸 **Bronze Layer**  
 Stores raw data from source systems as-is.  
