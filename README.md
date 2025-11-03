@@ -11,6 +11,8 @@ Designed as a **portfolio project**, it highlights industry best practices in **
 
 The project follows the **Medallion Architecture (Bronze → Silver → Gold):**  
 
+![DW Architecture]([images/dw_architecture.png](https://raw.githubusercontent.com/Mahmoud-Hamdy99/SQL-data-warehouse-project/refs/heads/main/docs/Data%20warehouse%20archeticture.drawio.png))
+
 🔸 **Bronze Layer**  
 Stores raw data from source systems as-is.  
 Data is ingested from CSV files into a SQL Server database.  
@@ -52,7 +54,7 @@ Build a modern Data Warehouse using SQL Server to consolidate sales and customer
 
 The Gold Layer of the Data Warehouse is modeled using a **Star Schema** structure, centered around the `FactSales` table and connected to its related Dimension tables.  
 
-*(Insert ERD image here — e.g. `/images/ERD.png`)*  
+![Data Model](https://raw.githubusercontent.com/Mahmoud-Hamdy99/SQL-data-warehouse-project/refs/heads/main/docs/DATA%20MODEL.drawio.png)
 
 ---
 
