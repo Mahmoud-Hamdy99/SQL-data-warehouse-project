@@ -25,7 +25,7 @@ Contains business-ready data modeled in a **Star Schema (Fact and Dimension tabl
 
 ---
 
-## 🔄 Data Lineage  
+## Data Lineage  
 
 The **Data Lineage** illustrates how data flows through each stage of the warehouse — from raw ingestion to analytics-ready tables.  
 It ensures **traceability**, **transparency**, and **data quality** across all layers of the architecture.  
@@ -51,7 +51,7 @@ This project includes the following components:
 **Objective**  
 Build a modern Data Warehouse using SQL Server to consolidate sales and customer data, enabling analytical reporting and data-driven decision-making.  
 
-📋 **Specifications**  
+**Specifications**  
 - **Data Sources:** Import data from two systems — ERP and CRM — provided as CSV files.  
 - **Data Quality:** Clean and fix inconsistencies before loading data into the warehouse.  
 - **Integration:** Merge both sources into a single, unified analytical model.  
@@ -99,7 +99,7 @@ The Gold Layer of the Data Warehouse is modeled using a **Star Schema** structur
 
 ---
 
-## 🧠 Key Learnings  
+## Key Learnings  
 
 - Building a Data Warehouse entirely in **SQL Server**  
 - Implementing **ETL logic** using stored procedures and views  
