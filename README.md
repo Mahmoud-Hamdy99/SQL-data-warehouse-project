@@ -108,66 +108,59 @@ The Gold Layer of the Data Warehouse is modeled using a **Star Schema** structur
 
 ---
 
-## Exploratory Data Analysis (EDA) Using SQL
+## Exploratory Data Analysis (EDA) Using SQL  
 
-This project includes a complete Exploratory Data Analysis (EDA) workflow performed entirely using SQL. The objective is to deeply understand the dataset, uncover trends, identify patterns, and prepare reliable insights for analysis and reporting.
+This project includes a complete Exploratory Data Analysis (EDA) workflow performed entirely using SQL.  
+The objective is to deeply understand the dataset, uncover trends, identify patterns, and prepare reliable insights for analysis and reporting.
 
 The EDA process is organized into six structured modules:
 
-1️⃣ Database Exploration
+---
 
-Understanding the overall structure of the database.
-
-Reviewing tables, schemas, and relationships
-
-
-2️⃣ Dimensions Exploration
-
-Analyzing the dimension tables to understand descriptive attributes.
-
-Examining categories, hierarchies, and unique values
-
-Profiling customer, product, and date dimensions
-
-3️⃣ Date Range Exploration
-
-Investigating the time dimension and dataset coverage.
-
-Identifying the earliest and latest dates
-
-Checking for gaps or missing time periods
-
-4️⃣ Measures Exploration
-
-Exploring numerical measures and KPIs.
-
-Analyzing distributions of sales, revenue, quantity, etc.
-
-Detecting outliers or unusual patterns
-
-Assessing completeness and accuracy of numerical fields
-
-5️⃣ Magnitude Analysis
-
-Evaluating contribution and weight of key entities.
-
-Identifying top-performing categories or groups
-
-Analyzing contribution percentages
-
-Highlighting where the dataset is most concentrated (e.g., top customers/products)
-
-6️⃣ Ranking Analysis
-
-Ranking entities to understand performance levels.
-
-Top N / Bottom N ranking
-
-Identifying patterns among high and low performers
+### **1️⃣ Database Exploration**  
+Understanding the overall structure of the database.  
+- Reviewing tables, schemas, and relationships  
 
 ---
 
-## 📈 BI: Analytics & Reporting (Data Analysis)  --->>> ## Coming Soon
+### **2️⃣ Dimensions Exploration**  
+Analyzing the dimension tables to understand descriptive attributes.  
+- Examining categories, hierarchies, and unique values  
+- Profiling customer, product, and date dimensions  
+
+---
+
+### **3️⃣ Date Range Exploration**  
+Investigating the time dimension and dataset coverage.  
+- Identifying the earliest and latest dates  
+- Checking for gaps or missing time periods  
+
+---
+
+### **4️⃣ Measures Exploration**  
+Exploring numerical measures and KPIs.  
+- Analyzing distributions of sales, revenue, quantity, etc.  
+- Detecting outliers or unusual patterns  
+- Assessing completeness and accuracy of numerical fields  
+
+---
+
+### **5️⃣ Magnitude Analysis**  
+Evaluating contribution and weight of key entities.  
+- Identifying top-performing categories or groups  
+- Analyzing contribution percentages  
+- Highlighting where the dataset is most concentrated (e.g., top customers/products)  
+
+---
+
+### **6️⃣ Ranking Analysis**  
+Ranking entities to understand performance levels.  
+- Top N / Bottom N ranking  
+- Identifying patterns among high and low performers  
+
+---
+
+## BI: Analytics & Reporting (Data Analysis)  --->>> ## Coming Soon
 
 ### Objective  
 Develop SQL-based analytics to deliver detailed insights into:  
