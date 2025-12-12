@@ -160,15 +160,12 @@ Ranking entities to understand performance levels.
 
 ---
 
-## BI: Analytics & Reporting (Data Analysis)  --->>> ## Coming Soon
+## BI: Analytics & Reporting (Data Analysis)
 
 ### Objective  
-Develop SQL-based analytics to deliver detailed insights into:  
-- **Customer Behavior**  
-- **Product Performance**  
-- **Sales Trends**  
+Develop SQL-based analytics to deliver detailed insights into **customer behavior**, **product performance**, and **sales trends**, empowering stakeholders with key business metrics that support strategic decision-making.
 
-These insights empower stakeholders with key business metrics, enabling strategic decision-making.  
+This repository provides a comprehensive collection of SQL scripts for **data exploration, analytics, and reporting**. It includes queries covering database exploration, measures and KPIs, time-based trends, cumulative analytics, segmentation, and more. Each script focuses on a specific analytical theme and demonstrates best-practice SQL patterns to help BI professionals and data analysts efficiently explore, segment, and analyze data within a relational database.
 
 ---
 
